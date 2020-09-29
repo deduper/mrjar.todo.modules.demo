@@ -1,0 +1,27 @@
+/*pluginManagement {
+    repositories {
+        maven {
+            url 'file://z:/staging/consuming/maven-repo'
+        }
+        gradlePluginPortal( )
+        mavenLocal( )
+        mavenCentral( )
+    }
+}*/
+
+plugins {
+  id "com.gradle.enterprise" version "3.4.1"
+}
+
+gradleEnterprise {
+    buildScan {
+        termsOfServiceUrl = "https://gradle.com/terms-of-service"
+        termsOfServiceAgree = "yes"
+    }
+}
+
+rootProject.name = 'todo-modules-demo'
+include 'todo-domain'
+include 'todo-main'
+include 'feature-api'
+
