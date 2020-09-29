@@ -38,7 +38,7 @@ requires spring.context
 requires spring.data.commons
 requires spring.data.relational
 ```
-Please report ***any and all*** failures of any of the above steps in this project's [*Issue's*](https://github.com/deduper/mrjar.todo.modules.demo/issues) section.
+Please report ***any and all*** failures of any of the above steps in this project's [*Issues*](https://github.com/deduper/mrjar.todo.modules.demo/issues) section.
 
 <br />
 <br />
